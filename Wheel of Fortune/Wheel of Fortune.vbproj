@@ -73,17 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="FrmSpin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="FrmSpin.Designer.vb">
+      <DependentUpon>FrmSpin.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,8 +98,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="FrmSpin.resx">
+      <DependentUpon>FrmSpin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -205,6 +206,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Picture25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Picture52.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
